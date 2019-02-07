@@ -10,7 +10,7 @@ public class Wod_Console {
 
 	public static void main(String[] args) throws IOException {
 		Document conn;
-		String fileName = "out.txt";
+		String fileName = "out.xml";
 		FileWriter plik = new FileWriter(fileName);
 		
 		try {
