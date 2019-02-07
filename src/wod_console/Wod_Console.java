@@ -29,7 +29,7 @@ public class Wod_Console {
 			}*/
 			}
 			while(
-				i < 3 //!conn.getElementsByClass("content").text().isEmpty()
+				i < 3 && !conn.getElementsByClass("content").text().isEmpty()
 			);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
